@@ -88,6 +88,7 @@ header .nav-social a:hover {
   align-items: center;
   justify-content: center;
   background: var(--sub-color);
+  margin-top: 10vh;
 }
 .show{
   display: block;
