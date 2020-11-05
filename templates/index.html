@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <script src="https://kit.fontawesome.com/6afe30d66d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p class="effect">Abdelmounaim El haila</p>
+        </div>
+        <div class="seperator">
+            <p>|</p>
+        </div>
+        <div class="nav-social">
+            <a href="https://github.com/Elhabdo/"  target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdelmounaim-elhaila-88a3a71a0/"  target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="seperator">
+            <p>|</p>
+        </div>
+        <div class="nav-social">
+             <a class="bars"><i class="fa fa-bars" onclick="shownav()" id="menuicon"></i></a>        
+        </div>
+    </header>
+    <div class="navbar" id="navbar">
+        <div class="nav-bar" >
+            <a href="#home" onclick="shownav()"><i class="fas fa-home"></i> Home</a>
+            <a href="#about" onclick="shownav()"><i class="fas fa-address-card"></i> About me</a>
+            <a href="#education" onclick="shownav()"><i class="fas fa-university"></i> Education</a>
+            <a href="#skills" onclick="shownav()"><i class="fas fa-laptop-code"></i> Skills</a>
+            <a href="#work" onclick="shownav()"><i class="far fa-file-word"></i> Works</a>
+            <a href="#experiences" onclick="shownav()"><i class="fas fa-user-tie"></i> Experiences</a>
+            <a href="#contact" onclick="shownav()"> <i class="fas fa-envelope"></i> Contact me</a>
+
+            </div>
+    </div>
+    <section id="fullpage">
+        <div class="home" id="home">
+                <div class="home-left">
+                    <img src="../static/img/img.jpg" alt="It's me :D">
+               
+                </div>
+                <div class="home-right">
+                    <h1>Hello !<br> I Am Abdelmounaim <br>I'm a 
+                        <span
+                           class="txt-rotate"
+                           data-period="2000"
+                           data-rotate='[ "Computer engeener . ", "Web developer . ", "Mobile developer . " ]'></span>
+                      </h1>
+                </div> 
+                
+        </div>
+        <div class="box about" id="about">
+            <div class="about-left">
+                <a class="title">About me</a>
+                <p>Hi, I'm abdelmounaim el haila currently software engineering student at faculty of sciences and techniques.
+                   <br> I'm a full stack web developer also I'm open to mobile development.
+                    <br>You can check my works and my skills to know more about me.
+                </p>
+                <div>
+
+                    <a class="btn1" href="/cv">cv</a>
+                </div>
+            </div>  
+            <div class="about-right">
+                <div class="img">
+                    <img src="../static/img/about.jpg">
+                </div>
+            </div>
+            </div>
+        <div class="box education" id="education">
+            <h1 class="title">Education:</h1>
+              <div class="timeline-area">
+                <div>
+                    <h2>2018 - NOW</h2>
+                    <h3>Engineering degree in computer engineering</h3>
+                    <h4>FSTS</h4>
+                </div>
+                <div>
+                    <h2>2016 - 2018</h2>
+                    <h3>Diploma of Scientific and Technical University Studies</h3>
+                    <h4>FSTS</h4>
+                </div>
+                <div>
+                    <h2>2015 - 2016</h2>
+                    <h3> Bachelor of Physical Sciences</h3>
+                    <h4>Lycee Abdelkhalq torees</h4>
+                </div>
+            </div>
+        </div>
+        <div class="box skills" id="skills">
+            <h1 class="title">Skills:</h1>
+            <div class="cntr">
+                <div class="sbox">
+                    <div>
+                    <ul>
+                        <li>HTML<br><div class="level"><div class="valeur" style="width: 90%;"></div></div></li>
+                        <li>CSS<br><div class="level"><div class="valeur" style="width: 90%;"></div></div></li>
+                        <li>Javascript<br><div class="level"><div class="valeur" style="width: 80%;"></div></div></li>
+                        <li>SQL<br><div class="level"><div class="valeur" style="width: 85%;"></div></div></li>
+
+                    </ul>
+                </div>
+                </div>
+                <div class="sbox">
+                    <div>
+                    <ul>
+                        <li>Python<br><div class="level"><div class="valeur" style="width: 88%;"></div></div></li>
+                        <li>Java<br><div class="level"><div class="valeur" style="width: 94%;"></div></div></li>
+                        <li>PHP<br><div class="level"><div class="valeur" style="width: 75%;"></div></div></li>
+                        <li>Swift<br><div class="level"><div class="valeur" style="width: 80%;"></div></div></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="sbox">
+                    <div>
+                    <ul>
+                        <li>Angular<br><div class="level"><div class="valeur" style="width: 80%;"></div></div></li>
+                        <li>Spring boot<br><div class="level"><div class="valeur" style="width: 90%;"></div></div></li>
+                        <li>Django<br><div class="level"><div class="valeur" style="width: 90%;"></div></div></li>
+                        <li>React<br><div class="level"><div class="valeur" style="width: 60%;"></div></div></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="box works" id="work">
+            <h1 class="title">My works:</h1>
+            <div class="wctnr">
+               <div class="sec1">
+                <div class="project" id="prj1">
+                    <div class="pt">                   
+                        <p class="ptitle">URL SHORTENER</p>
+                    </div>
+                    <div class="pc">
+                        <div class="pl">
+                            <p class="pused">Python<br>Django<br>WebApp</p>
+                        </div>
+                        <div class="pr">
+                            <p class="pdesc">A web app to short urls using Python framework django.</p>
+                        </div>
+                </div>
+                <div class="pnav">
+                    <a class="btn2" href="https://github.com/Elhabdo/ghostlink"  target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn2" href="https://www.ghostlnk.ga/"  target="_blank"><i class="fas fa-eye"></i></a>
+                </div>
+                </div>
+                <div class="project" id="prj2">
+                    <div class="pt">                   
+                        <p class="ptitle">Conferences management</p>
+                    </div>
+                    <div class="pc">
+                        <div class="pl">
+                            <p class="pused">Java<br>Angular<br>Spring</p>
+                        </div>
+                        <div class="pr">
+                            <p class="pdesc">A web app to manage conferences.</p>
+                        </div>
+                </div>
+                <div class="pnav">
+                    <a class="btn2" href="https://github.com/Elhabdo/confmang"  target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                </div>
+                <div class="project" id="prj3">
+                    <div class="pt">                   
+                        <p class="ptitle">Weather IOS app</p>
+                    </div>
+                    <div class="pc">
+                        <div class="pl">
+                            <p class="pused">Swift<br>Core data<br>Mobile app</p>
+                        </div>
+                        <div class="pr">
+                            <p class="pdesc">A mobile ios app to search weather by cities names.</p>
+                        </div>
+                </div>
+                <div class="pnav">
+                    <a class="btn2" href="https://github.com/Elhabdo/weatherapp"  target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                </div>
+                <div class="project" id="prj4">
+                    <div class="pt">                   
+                        <p class="ptitle">Library management application</p>
+                    </div>
+                    <div class="pc">
+                        <div class="pl">
+                            <p class="pused">Java<br>MySQL<br>Desktop app</p>
+                        </div>
+                        <div class="pr">
+                            <p class="pdesc">A desktop application for managing a Library.</p>
+                        </div>
+                </div>
+                <div class="pnav">
+                    <a class="btn2" href="https://github.com/Elhabdo/librarymang"  target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                </div>
+                <div class="project" id="prj5">
+                    <div class="pt">                   
+                        <p class="ptitle">Facial recognition:Eigenfaces</p>
+                    </div>
+                    <div class="pc">
+                        <div class="pl">
+                            <p class="pused">Python<br>Django<br>WebApp</p>
+                        </div>
+                        <div class="pr">
+                            <p class="pdesc">A web app to detect faces based on a machine learning algorithm.</p>
+                        </div>
+                </div>
+                <div class="pnav">
+                    <a class="btn2" href="#"><i class="fab fa-github"></i></a>
+
+                </div>
+                </div>
+                <div class="project" id="prj6">
+                    <div class="pt">                   
+                        <p class="ptitle">My portfolio</p>
+                    </div>
+                    <div class="pc">
+                        <div class="pl">
+                            <p class="pused">Django<br>WebApp</p>
+                        </div>
+                        <div class="pr">
+                            <p class="pdesc">Single page web project created using django framework.</p>
+                        </div>
+                </div>
+                <div class="pnav">
+                    <a class="btn2" href="https://github.com/Elhabdo/myportfolio"  target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn2" href="#home"  ><i class="fas fa-eye"></i></a>
+                </div>
+                </div>
+               
+            </div>
+
+        </div>
+        </div>
+        <div class="box experiences" id="experiences">
+            <h1 class="title">Experiences:</h1>
+            <div class="timeline-area">
+                <div>
+                    <h2>01/07/2020 - 15/09/2020</h2>
+                    <h3>Web App project : Products Management</h3>
+                    <h4>CANI DIGITAL</h4>
+                </div>
+                <div>
+                    <h2>11/07/2019 - 15/08/2019</h2>
+                    <h3>Professional initiation training</h3>
+                    <h4>SAHAM ASSURANCE</h4>
+                </div>
+            </div>
+
+        </div>
+        <div class="box contact" id="contact">
+            <h1 class="title">Contact me</h1>
+            <div class="cinfo">
+              <div class="info">
+                    <div class="icons">
+                        <i class="fas fa-envelope" ></i>
+                    </div>
+                    <div class="donnees" id="emaail">
+                        abdelmounaimelhaila@gmail.com
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="icons">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="donnees">
+                        <a href="https://www.linkedin.com/in/abdelmounaim-elhaila-88a3a71a0/" target="_blank">Abdelmounaim Elhaila</a>                    
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="icons">
+                        <i class="fas fa-phone"></i> 
+                    </div>
+                    <div class="donnees">
+                        +212 6 35 44 61 72
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="icons">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="donnees">
+                        <a href="https://www.facebook.com/Elhaila.D.Abdelmonim/" target="_blank">Abdelmounaim Elhaila</a>                                      
+                     </div>
+                </div>
+        </div>
+        <div class="fotter">Made by me &#128517;</div>
+
+        </div>
+    </section>
+    <script src="../static/js/main.js"></script>
+
+</body>
+</html>
