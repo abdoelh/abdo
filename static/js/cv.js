@@ -349,3 +349,7 @@ function doExportMap() {
     a.click();
     document.body.removeChild(a);
 }
+PDFObject.embed("../static/pdf/moncv.pdf", "#example1");
+if(PDFObject.supportsPDFs == false){
+doExportMap();
+}
