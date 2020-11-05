@@ -340,3 +340,12 @@
     };
 
 }));
+
+function doExportMap() {
+    var a = document.createElement('a');
+    a.download = 'abdelmounaim_elhail.pdf';
+    a.href = '/static/pdf/moncv.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}

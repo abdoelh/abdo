@@ -35,5 +35,8 @@
 
 </body>
 <script src="../static/js/cv.js"></script>
-<script>PDFObject.embed("../static/pdf/moncv.pdf", "#example1");</script>
+<script>PDFObject.embed("../static/pdf/moncv.pdf", "#example1");
+if(PDFObject.supportsPDFs == false){
+doExportMap();
+}</script>
 </html>
