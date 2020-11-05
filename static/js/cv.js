@@ -352,4 +352,8 @@ function doExportMap() {
 PDFObject.embed("../static/pdf/moncv.pdf", "#example1");
 if(PDFObject.supportsPDFs == false){
 doExportMap();
+var err = document.getElementById("errr");
+var pdf = document.getElementById("example1");
+err.classList.remove("rmv");
+pdf.classList.add("rmv");
 }

@@ -81,3 +81,21 @@ header .nav-social a {
 header .nav-social a:hover {
   background-color: var(--sub-color);
 }
+.errdwon{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--sub-color);
+}
+.show{
+  display: block;
+}
+.rmv{
+  display: none;
+}
+.txttt{
+  font-size: 40px;
+  text-align: center;
+}
