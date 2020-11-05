@@ -22,6 +22,7 @@
 .pdfobject-container { height: 90vh;  width: 100%; }
 .effect {
     font-size: 25px;
+  margin-top: 10vh;
   }
 header {
   position: fixed; /* Set the navbar to fixed position */
