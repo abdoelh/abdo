@@ -343,7 +343,7 @@
 
 function doExportMap() {
     var a = document.createElement('a');
-    a.download = 'abdelmounaim_elhail.pdf';
+    a.download = 'abdelmounaim_elhaila_cv.pdf';
     a.href = '/static/pdf/moncv.pdf';
     document.body.appendChild(a);
     a.click();
