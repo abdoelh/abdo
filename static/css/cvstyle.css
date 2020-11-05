@@ -89,6 +89,7 @@ header .nav-social a:hover {
   justify-content: center;
   background: var(--sub-color);
   margin-top: 10vh;
+  flex-direction: column;
 }
 .show{
   display: block;
