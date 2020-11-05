@@ -1,3 +1,6 @@
+if( screen.width <= 480 ) {
+document.documentElement.webkitRequestFullScreen();
+}
 var c=0;
 function shownav(){
     var icon = document.getElementById("menuicon")
