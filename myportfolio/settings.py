@@ -126,3 +126,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 X_FRAME_OPTIONS = 'ALLOW-FROM https://myportfollio.herokuapp.com/'
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
