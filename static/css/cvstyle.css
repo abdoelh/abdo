@@ -19,10 +19,10 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-.pdfobject-container { height: 90vh;  width: 100%; }
+.pdfobject-container { height: 90vh;  width: 100%;   margin-top: 10vh;
+ }
 .effect {
     font-size: 25px;
-  margin-top: 10vh;
   }
 header {
   position: fixed; /* Set the navbar to fixed position */
