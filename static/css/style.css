@@ -519,6 +519,8 @@ header .nav-social a:hover {
   background-color: rgba(117, 159, 188, 0.3);
   flex-direction: column;
   margin-bottom: 10px;
+  height: 30vh;
+  justify-content: center;
 }
 .project .pt {
   width: 100%;
