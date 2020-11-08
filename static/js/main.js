@@ -1,6 +1,9 @@
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 if (isMobile) {
 document.documentElement.webkitRequestFullScreen();
+document.documentElement.requestFullscreen();
+document.documentElement.msRequestFullscreen();
+
 }
 var c=0;
 function shownav(){
