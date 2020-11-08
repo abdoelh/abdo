@@ -1,4 +1,3 @@
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 var c=0;
 function shownav(){
     var icon = document.getElementById("menuicon")
@@ -98,7 +97,3 @@ var TxtRotate = function(el, toRotate, period) {
     });
 
 })(jQuery, window);
-
-if (isMobile) {
-    document.documentElement.requestFullscreen();
-}
