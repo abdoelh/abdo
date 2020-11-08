@@ -349,7 +349,7 @@ function doExportMap() {
     a.click();
     document.body.removeChild(a);
 }
-PDFObject.embed("../static/pdf/moncv.pdf", "#example1");
+PDFObject.embed("../static/pdf/Abdelmounaim_ELHAILA_cv.pdf", "#example1");
 if(PDFObject.supportsPDFs == false){
 doExportMap();
 var err = document.getElementById("errr");
