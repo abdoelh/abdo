@@ -1,4 +1,5 @@
-if( screen.width <= 480 ) {
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if (isMobile) {
 document.documentElement.webkitRequestFullScreen();
 }
 var c=0;
